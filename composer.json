@@ -1,0 +1,23 @@
+{
+  "name": "shipmates/shipmates-php",
+  "description": "Shipmate PHP Library",
+  "keywords": [
+    "shipmate",
+    "api"
+  ],
+  "homepage": "https://shipmate.co.uk/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shipmate and contributors"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": { "Shipmate\\" : "lib/" }
+  }
+}
